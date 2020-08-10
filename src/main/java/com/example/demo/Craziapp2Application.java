@@ -6,8 +6,6 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
-import com.technohertz.util.FileStorageProperties;
-
 @SpringBootApplication(scanBasePackages = { "com.example.demo" })
 @EnableCaching
 @EnableScheduling

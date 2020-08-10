@@ -31,11 +31,17 @@
 		<!-- https://mvnrepository.com/artifact/org.mule.modules/mule-module-objectstore -->
 
 		<!-- https://mvnrepository.com/artifact/javax.interceptor/javax.interceptor-api -->
-<dependency>
-    <groupId>javax.interceptor</groupId>
-    <artifactId>javax.interceptor-api</artifactId>
-    <version>1.2-b06</version>
-</dependency>
+		<dependency>
+		    <groupId>javax.interceptor</groupId>
+		    <artifactId>javax.interceptor-api</artifactId>
+		    <version>1.2-b06</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.grpc/grpc-netty-shaded -->
+		<dependency>
+		    <groupId>io.grpc</groupId>
+		    <artifactId>grpc-netty-shaded</artifactId>
+		    <version>1.13.1</version>
+		</dependency>
 		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -77,11 +83,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
-		<dependency>
+<!-- 		<dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
             <scope>provided</scope>
-        </dependency>
+        </dependency> -->
+        
          <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>

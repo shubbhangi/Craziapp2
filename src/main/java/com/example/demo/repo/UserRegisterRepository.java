@@ -9,7 +9,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 import com.example.demo.model.UserRegister;
 
-@EnableJpaRepositories("com.technohertz.repo")
+@EnableJpaRepositories("com.example.demo.repo")
 public interface UserRegisterRepository extends JpaRepository<UserRegister, Integer>,JpaSpecificationExecutor<UserRegister>{
 	
 	

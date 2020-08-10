@@ -31,8 +31,6 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @DynamicUpdate
 public class UserRegister implements Serializable {
 
-	
-
 	/**
 	 * 
 	 */
